@@ -1,0 +1,107 @@
+.marco{
+    height: 30rem;
+    width: 30rem;
+    background-color: #F95738;
+    border-radius: 100%;
+    margin-left: 25rem;
+    box-shadow: 1rem 1rem 1rem grey;
+  }
+  .p {
+   font-family: verdana;
+   font-style: bold italic;
+   font-color: #fff;
+   font-size: 35px;
+   position: absolute;
+   left: 33rem;
+   top: 3rem;
+   
+  }
+  .orejauno {
+      width: 2rem;
+      height: 1.5rem;
+      /*top: 100rem;
+      left: 100rem;*/
+      background-color: pink;
+      border-radius: 25rem 25rem 25rem 25rem;
+      position: relative;
+      left: 1.5rem;
+      top: 1rem;
+  }
+  
+  .disfraz {
+      width: 15rem;
+      height: 13rem;
+      position: relative;
+      top: 8rem;
+      left: 8rem;
+      background-color: #130303;
+      border-radius: 0rem 0rem 4rem 4rem;
+  
+  }
+  
+  
+  .negro{
+      content: '';
+      width: 5rem;
+      height: 6rem;
+      background-color: #130303;
+      position: absolute;
+      top: 10rem;
+      border-radius: 5rem 5rem 5rem 5rem;
+  }
+  
+  .uno {
+    left: 33.5rem;
+  }
+  
+  .dos {
+    left: 43.5rem;
+  }
+  
+  
+  .disfraz::after{
+      left: 10rem;
+  }
+  .cara {
+      width: 12.5rem;
+      height: 7rem;
+      background-color: #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: 3rem;
+      left: 1.5rem;
+      
+  }
+  
+  .detalles, .detalles::before{    
+      width: 1rem;
+      height: 2rem;
+      background-color: #000;
+      border-radius: 50%;
+      position: relative;
+      top: 1.5rem;
+      left: 3rem;
+  }
+  .detalles::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 5rem;
+  }
+  
+  
+  .nariz{    
+      width: 6rem;
+      height: 3rem;
+      background-color: #000;
+      border-radius: 100%;
+      position: relative;
+      top: 1rem;
+      left: 3rem;
+      bottom: 0rem;
+      right: 0rem;
+  }
+  
+  .oso {
+    padding-top: 5rem;
+  }
